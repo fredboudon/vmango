@@ -85,7 +85,8 @@ swp_4 = 0.0000198265            # specific parameter for stem water potential ca
 ddthres_1 = 20.769              # specific paramater for cell wall degree-days threshold calculation based on fruit dry mass at the end of cell division [dd g-1 DM]
 ddthres_2 = 518.87              # specific paramater for cell wall degree-days threshold calculation based on fruit dry mass at the end of cell division [dd]
 
-[fresh_matter.delta]  # specific parameters for calculation of mass proportion of malic acid in fruit flesh based on degree-days and fruit flesh dry mass [g g-1 DM] [g g-1 DM dd-1] [g g-2 DM] [g g-2 DM dd-1] :
+[fresh_matter.delta]
+# specific parameters for calculation of mass proportion of malic acid in fruit flesh based on degree-days and fruit flesh dry mass [g g-1 DM] [g g-1 DM dd-1] [g g-2 DM] [g g-2 DM dd-1]
 mal = [ 0.06620651,  -0.0000538797,  -0.002464413,    2.406565e-06]   # malic acid
 cit = [ 0.1625024,   -0.0000640754,   0.003906348,   -4.784292e-06]   # citric acid
 pyr = [ 0.0006896104, 1.613387e-06,   0.00005063595, -6.912509e-08]   # pyruvic acid

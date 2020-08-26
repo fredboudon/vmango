@@ -1,0 +1,10 @@
+title = 'Main vmango simulation settings'
+
+[environment]
+hourly_data = '../environment/weather_hourly_stpierre_2002.csv'
+daily_data = '../environment/weather_daily_stpierre_2002.csv'
+
+[parameters]
+fruit = '../parameters/fruitmodel/cogshall.toml'
+light = '../parameters/light/sunlit_fractions.toml'
+lpy = '../parameters/lpy/default.json'
